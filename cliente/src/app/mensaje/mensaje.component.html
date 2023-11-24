@@ -1,9 +1,0 @@
-<div
-  [ngClass]="[
-    'alert',
-    mensajeService.mensaje.tipo == 1 ? 'alert-success' : 'alert-danger'
-  ]"
-  *ngIf="mensajeService.mensaje"
->
-  {{ mensajeService.mensaje.texto }}
-</div>
